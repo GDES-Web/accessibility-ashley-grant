@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>HTML accessibility: Task 2</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      form {
+        width: 400px;
+      }
+      .name-style {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .age-style {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .email-address-style {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+      <form>
+          <div class="name-style">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name">
+          </div>
+          <div class="age-style">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age">
+          </div>
+          <div class="email-address-style">
+              <label for="email address">Email Address</label>
+              <input type="text" id="email-address" name="email">
+          </div>
+      </form>
+  </body>
+</html>
